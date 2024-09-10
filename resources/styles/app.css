@@ -1,0 +1,30 @@
+@import 'common/fonts';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-[2.25rem] font-bold; /* 36px */
+  }
+
+  h2 {
+    @apply text-[1.875rem] font-semibold; /* 30px */
+  }
+
+  h3 {
+    @apply text-[1.5rem] font-medium; /* 24px */
+  }
+
+  h4 {
+    @apply text-[1.25rem] font-normal; /* 20px */
+  }
+
+  h5 {
+    @apply text-[1.125rem] font-light; /* 18px */
+  }
+
+  h6 {
+    @apply text-[1rem] font-light; /* 16px */
+  }
+}
